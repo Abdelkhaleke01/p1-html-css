@@ -32,6 +32,7 @@ p{
 }
 .eersteparagraaf{
     font-style: italic;
+    color: black;
 }
 p{
     color: #4D4D4D ;
@@ -39,4 +40,13 @@ p{
 a{
     color: #8A2BE2;
     text-decoration: none;
+}
+img{
+ width: 50vw;
+}
+article{
+    color: aqua;
+    border: 2px solid rgb(64, 0, 255);
+    border-radius:  5px;
+    border-left: solid blue 5px;
 }
