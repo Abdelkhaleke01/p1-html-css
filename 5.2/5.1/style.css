@@ -1,0 +1,88 @@
+h1{
+    font-size: 24px;
+    color: rgb(64, 0, 255);
+    font-style: italic;
+    font-weight: bolder;
+}
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-style: italic;
+
+}
+h3{
+    font-size: 16px;
+    color: teal;
+    font-style: italic;
+}
+p{
+    color: #4D4D4D  ;
+
+}
+.eersteparagraaf{
+    font-style: italic;
+}
+p{
+    color: #4D4D4D ;
+}
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0099cc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.content {
+    flex: 1;
+    margin-top: 50px; /* Height of the navbar */
+    margin-bottom: 50px; /* Height of the footer */
+    padding: 20px;
+}
+.content h1, .content h2 {
+    text-align: center;
+}
+.content p, .content img {
+    float: left;
+    margin: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.dropdown-content{
+    .dropdown-content {
+        /* display: block; */
+        display: none;
+        position: absolute;
+        background-color: #E9E9E9;
+        box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.2);
+        /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        z-index: 1;
+        right: 20px
+      }
+}
