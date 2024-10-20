@@ -69,3 +69,7 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+.canvas{
+  position:absolute;
+  
+}
