@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo, .login {
+    flex: 1;
+    text-align: center;
+    color: blue;
+}
+
+.nav-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: blue;
+    text-decoration: none;
+}
