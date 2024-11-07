@@ -1,0 +1,28 @@
+@media screen and (max-width: 992px) {
+
+}
+.logo{
+    height: 50px;
+    width: 1080px;
+    padding: 0;
+    background-color: red;
+}
+.title-2{
+    height: 50px;
+    width: 1080px;
+    padding: 0;
+    background-color: yellow;
+}
+.title-3{
+    height: 50px;
+    width: 1080px;
+    padding: 0;
+    background-color: orange;
+}
+.title-4{
+    height: 200px;
+    width: 1080px;
+    padding: 0;
+    background-color: greenyellow;
+}
+
